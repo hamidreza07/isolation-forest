@@ -4,7 +4,7 @@ Isolation Forest is an algorithm originally developed for outlier detection that
 Note that this is a black-box model that will not produce explanations or importances - for a different take on explainable outlier detection see [OutlierTree](https://www.github.com/david-cortes/outliertree).
 
 ## Description
-In this repositories we tired to identify best model of isolation forest. In order to do that we check and study 3 main site (github , pypi and kaggle) for finding best isolation forest model. As you know isolation forest model is used for detecting outliers and the sklearn itself, has a one ensemble method for that. The table bellow is our best effort to review other methods in aspect of pros and cons :
+In this repositories we tried  to identify best model of isolation forest. In order to do that we check and study 3 main site (github , pypi and kaggle) for finding best isolation forest model. As you know isolation forest model is used for detecting outliers and the sklearn itself, has a one ensemble method for that. The table below is our best effort to review other methods in aspect of pros and cons :
 
 
 

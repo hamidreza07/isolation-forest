@@ -1,3 +1,13 @@
+# ISOLATION FOREST:
+
+
+## Description
+In this repositories we tired to identify best model of isolation forest. In order to do that we check and study 3 main site (github , pypi and kaggle) for finding best isolation forest model. As you know isolation forest model is used for detecting outliers and the sklearn itself, has a one ensemble method for that. The table bellow is our best effort to review other methods in aspect of pros and cons :
+
+
+
+
+
 | id | name of project           | advantages                                                                                                                                                                   | disadvantages                                                                | link                                                                               | sample file                                                                                             |
 | -- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | 1  | iForest                   | simplicity-install without any configuration<br>self configuration of isolation forest                                                                                       | Missing data and categorical data not supported                              | https://github.com/donyafoz/iForest                                                |                                                                                                         |

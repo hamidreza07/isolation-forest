@@ -1,5 +1,7 @@
 # ISOLATION FOREST:
+Isolation Forest is an algorithm originally developed for outlier detection that consists in splitting sub-samples of the data according to some attribute/feature/column at random. The idea is that, the rarer the observation, the more likely it is that a random uniform split on some feature would put outliers alone in one branch, and the fewer splits it will take to isolate an outlier observation like this. The concept is extended to splitting hyperplanes in the extended model (i.e. splitting by more than one column at a time), and to guided (not entirely random) splits in the SCiForest model that aim at isolating outliers faster and finding clustered outliers.
 
+Note that this is a black-box model that will not produce explanations or importances - for a different take on explainable outlier detection see [OutlierTree](https://www.github.com/david-cortes/outliertree).
 
 ## Description
 In this repositories we tired to identify best model of isolation forest. In order to do that we check and study 3 main site (github , pypi and kaggle) for finding best isolation forest model. As you know isolation forest model is used for detecting outliers and the sklearn itself, has a one ensemble method for that. The table bellow is our best effort to review other methods in aspect of pros and cons :
